@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="order.js">
+    </script>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper teal lighten-3">
+                <a href="#!" class="brand-logo">Galvanize Delivers</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <div class="row">
+            <div class="order-event left-col col l8 s12 m6">
+                <div id="top-row" class="row">
+                    <div id="top-left-col" class="col l6 s12 m7">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="http://www.kowloonnc.com/resources/img/backgrounds/chinese_2.jpg">
+                                <span class="card-title">Sesame Chicken</span>
+                            </div>
+
+                            <div class="card-action">
+                                <a href="#" class="order-link">add to order</a>
+                                <p class="text-right">$10.99<p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="top-right-col" class="col l6 s12 m7">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="http://www.bearnakedfood.com/wp-content/uploads/2016/04/DSCF9887.jpg">
+                                <span class="card-title">Hot and Sour Soup</span>
+                            </div>
+
+                            <div class="card-action">
+                                <a href="#" class="order-link">add to order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bottom-row" class="row">
+                    <div id="left-bottom-col" class="col l6 s12 m7">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="http://cdn.pinchofyum.com/wp-content/uploads/Lo-Mein-5-2.jpg">
+                                <span class="card-title">Lo Mein</span>
+                            </div>
+
+                            <div class="card-action">
+                                <a href="#" class="order-link">add to order</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="right-bottom-col" class="col l6 s12 m7">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="http://www.lifesambrosia.com/wp-content/uploads/crab-wontons.jpg">
+                                <span class="card-title">Wantons</span>
+                            </div>
+                            
+                            <div class="card-action">
+                                <a href="#" class="order-link">add to order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col col l4 s12 m6">
+
+                <div id="table-container" class="row">
+
+                    <table class="bordered striped hightlight">
+                        <thead>
+                            <tr>
+                                <th data-field="name">Item</th>
+                                <th data-field="price">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody" class="table-body">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <div class="row">
+
+                    <!-- <div id="form-icon-col" type="col l2 s2 m2">
+
+                        <div id="person-icon" type="row">
+                            <i class="material-icons">person</i>
+                        </div>
+
+                        <div id="phone-icon" type="row">
+                            <i class="material-icons">phone</i>
+                        </div>
+
+                        <div id="address-icon" type="row">
+                            <i class="material-icons">location_city</i>
+                        </div>
+
+                    </div> -->
+
+                    <div id="form-col" type="col l10 s10 m10">
+
+                        <form class="" action="" method="get">
+
+                            <div id="name-container" type="row">
+                                <i class="material-icons">person</i>
+                                <input id="name" type="text" placeholder="Name"></input>
+                            </div>
+
+                            <div id="phone-container" type="row">
+                                <i class="material-icons">phone</i>
+                                <input id="phone" type="text" placeholder="phone (###-###-####)">
+                                </input>
+                            </div>
+
+                            <div id="address-container" type="row">
+                                <i class="material-icons">location_city</i>
+                                <input id="address" type="text" placeholder="address"></input>
+                            </div>
+
+                            <button type="submit">Submit</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <div class="footer-container">
+        <footer class="page-footer teal lighten-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="order.html">Order Delivery</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2016 Galvanize Delivers
+                </div>
+            </div>
+        </footer>
+    </div class="footer-container">
+</body>
+
+</html>
