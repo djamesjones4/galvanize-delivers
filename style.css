@@ -1,3 +1,35 @@
-/*.text-right{
-  align-self: flex-end;
+
+/*body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }*/
+  .row.background{
+
+    display: flex;
+max-width: 100%;
+max-height: inherit;
+
+  }
+.row.background img{
+  /*background-image: url('http://spliffmobile.com/ultra-hd-wallpapers/download/hd-lucky-dragon-wallpaper.png');*/
+  height: 25%;
+  height: auto;
+max-width: 100%;
+max-height: inherit;
+  background-size: contain;
+}
+
+/*img{
+  height: 10em;
 }*/
+.section-banner{
+position: sticky;
+}
+footer{
+  position: relative;;
+}
